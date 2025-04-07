@@ -1,8 +1,17 @@
 
 
 .Test {
+    display: inline-block;
     width: 500px;
     height: 500px;
     background-color: black;
     color: white;
+    border-radius: 20px;
+}
+.Test>h1,h2,h3,h4,h5,h6 {
+    display: block;
+}
+.Test2 {
+    font-size: 20px;
+    width: 500px;
 }
